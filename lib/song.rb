@@ -45,7 +45,6 @@ class Song
     song = self.new
     song.name = file_format.split(/\- |\.mp3/)[1]
     song.artist_name = file_format.split[0]
-
     song
   end
 end
