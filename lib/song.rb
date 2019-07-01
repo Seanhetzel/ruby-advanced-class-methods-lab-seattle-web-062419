@@ -43,6 +43,6 @@ class Song
 
   def self.new_from_filename(file_format)
     self.create_by_name(file_format.split(/\- |\.mp3/)[1])
-    @artist_name = file_format.split
+    @artist_name = file_format.split[0]
   end
 end
