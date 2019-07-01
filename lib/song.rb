@@ -54,4 +54,5 @@ class Song
     song.artist_name = file_format.split[0]
     @@all << song
     song
+  end
 end
