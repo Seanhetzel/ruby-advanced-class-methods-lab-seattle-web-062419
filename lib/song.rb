@@ -52,4 +52,6 @@ class Song
     song = Song.new
     song.name = file_format.split(/\- |\.mp3/)[1]
     song.artist_name = file_format.split[0]
+    @@all << song
+    song
 end
